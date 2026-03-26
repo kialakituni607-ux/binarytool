@@ -1,0 +1,81 @@
+body {
+  margin: 0;
+  font-family: Arial;
+  background: #0b1220;
+  color: white;
+}
+
+/* TOP */
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  background: #111827;
+}
+
+.topbar span {
+  color: red;
+  font-size: 12px;
+}
+
+.top-buttons button {
+  margin-left: 10px;
+  padding: 8px 15px;
+}
+
+/* MENU */
+.menu {
+  display: flex;
+  background: #1e293b;
+  padding: 10px;
+}
+
+.menu button {
+  margin-right: 10px;
+}
+
+/* MAIN */
+.container {
+  padding: 20px;
+}
+
+/* CARDS */
+.bot-cards {
+  display: flex;
+  gap: 15px;
+}
+
+.card {
+  background: #1e293b;
+  padding: 20px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+/* SIGNALS */
+.signals {
+  margin-top: 40px;
+  text-align: center;
+}
+
+/* SIDE PANEL */
+.side-panel {
+  position: fixed;
+  right: 0;
+  top: 100px;
+  width: 250px;
+  background: #111827;
+  padding: 15px;
+  height: 70%;
+}
+
+/* RUN BAR */
+.run-bar {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background: #111827;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
