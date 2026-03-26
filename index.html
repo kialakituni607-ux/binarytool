@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>BinaryTool Clone</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<!-- TOP NAV -->
+<div class="topbar">
+  <h2>Binarytool <span>powered by deriv</span></h2>
+
+  <div class="top-buttons">
+    <button>Log in</button>
+    <button>API Token</button>
+    <button>Sign up</button>
+  </div>
+</div>
+
+<!-- MENU -->
+<div class="menu">
+  <button onclick="openTab('dashboard')">Dashboard</button>
+  <button onclick="openTab('bot')">Bot Builder</button>
+  <button onclick="openTab('freebots')">Free Bots</button>
+  <button onclick="openTab('chart')">Chart</button>
+</div>
+
+<!-- CONTENT -->
+<div class="container">
+
+  <!-- BOT OPTIONS -->
+  <div class="bot-cards">
+    <div class="card">Load Bot</div>
+    <div class="card">Speed Bot</div>
+    <div class="card">Premium Bots</div>
+    <div class="card">Free Bots</div>
+  </div>
+
+  <!-- SIGNALS -->
+  <div class="signals">
+    <h2>Signals</h2>
+    <p>No Active Signals</p>
+  </div>
+
+</div>
+
+<!-- SIDE PANEL -->
+<div class="side-panel">
+  <h3>Transactions</h3>
+  <p>No transactions</p>
+
+  <div class="stats">
+    <p>Total stake: 0</p>
+    <p>Total payout: 0</p>
+    <p>Runs: 0</p>
+  </div>
+
+  <button class="reset">Reset</button>
+</div>
+
+<!-- RUN BAR -->
+<div class="run-bar">
+  <button onclick="runBot()">▶ Run</button>
+  <span id="status">Bot is not running</span>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
